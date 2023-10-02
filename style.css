@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background-color: hsl(217, 54%, 11%);
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card {
+  width: 225px;
+  height: 400px;
+  padding: 15px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+
+.nft-image {
+  position: relative;
+  width: 225px;
+  height: 225px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+img {
+  position: block;
+  opacity: 1;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.view-icon {
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  opacity: 0;
+  width: 40px;
+}
+
+.nft-image:hover {
+  background-color: hsl(178, 100%, 50%);
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.nft-image:hover .view-icon {
+  opacity: 1;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.details {
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.coin-detail,
+.coin-detail-1,
+.duration-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ethereum {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(178, 100%, 50%);
+}
+
+.ethereum-icon {
+  width: 9px;
+  height: 14px;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+.clock-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+.duration {
+  margin: 0;
+  font-size: 13px;
+  color: hsl(215, 51%, 70%);
+}
+
+hr {
+  border: none;
+  width: 100%;
+  height: 1px;
+  margin: 20px 0 10px 0;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.avatar {
+  position: relative;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.avatar-image {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.creation {
+  margin: 0;
+  padding-bottom: 2px;
+  color: hsl(215, 51%, 70%);  
+}
+
+.profile-name {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
